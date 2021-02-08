@@ -26,5 +26,5 @@ try to run, and expose port 8081
 
 `docker run --rm -p 8081:3000 example-expressjs`{{execute interrupt}}
 
-Open port 8081 to view
-https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
+Open port 8081 to view \
+[https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/](https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/)
