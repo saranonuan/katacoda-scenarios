@@ -1,0 +1,9 @@
+`example2/Dockerfile`{{open}}
+
+`example2/index.html`{{open}}
+
+`example2/nginx.conf`{{open}}
+
+`cd /root/labdocker101/docker101`{{execute interrupt}}
+
+`docker build -t example2-web .`{{execute interrupt}}
