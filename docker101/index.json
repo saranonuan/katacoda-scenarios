@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "Docker Basic Lab 101",
   "description": "",
   "difficulty": "Beginner",
@@ -30,13 +31,12 @@
       "text": "intro.md",
       "courseData": "background.sh",
       "code": "foreground.sh"
-    },
-    "finish": {
-      "text": "finish.md"
     }
   },
   "environment": {
-    "uieditorpath": "/root/labdocker101",
+    "vscodepath": "/root/labdocker101/docker-helloworld",
+    "vscodeeditorpath": "/root/labdocker101/docker-helloworld",
+    "uieditorpath": "/root/labdocker101/docker-helloworld",
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
