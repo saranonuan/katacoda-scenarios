@@ -1,11 +1,21 @@
-`example2/Dockerfile`{{open}}
+# Basic command example
 
-`example2/index.html`{{open}}
+List all local images
 
-`example2/nginx.conf`{{open}}
+`docker images`{{execute interrupt}}
 
-`cd /root/labdocker101`{{execute interrupt}}
+List running container
 
-`docker build -t example2-web .`{{execute interrupt}}
+`docker ps`{{execute interrupt}}
 
-`docker run --rm -p 8080:81 example2-web`{{execute interrupt}}
+Try to stop running container
+
+`docker stop CONTAINER_ID`{{copy}}
+
+List container, _Include stopped container_
+
+`docker ps -a`{{execute interrupt}}
+
+Try to remove stopped container
+
+`docker rm CONTAINER_ID`{{copy}}
