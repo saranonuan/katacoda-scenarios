@@ -1,3 +1,3 @@
 ## Hello world !!
 
-`docker run hello-world`{{execute interrupt}}
+`docker run hello-world`{{execute}}

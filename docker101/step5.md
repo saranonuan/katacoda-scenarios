@@ -2,19 +2,19 @@
 
 Stop all container
 
-`docker stop $(docker ps -aq)`{{execute interrupt}}
+`docker stop $(docker ps -aq)`{{execute}}
 
 Clear stopped container
 
-`docker container prune`{{execute interrupt}}
+`docker container prune`{{execute}}
 
 Clear unuse image
 
-`docker image prune`{{execute interrupt}}
+`docker image prune`{{execute}}
 
 Check
 
-`docker ps -a`{{execute interrupt}}
+`docker ps -a`{{execute}}
 
-`docker images`{{execute interrupt}}
+`docker images`{{execute}}
 

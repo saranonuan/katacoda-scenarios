@@ -2,11 +2,11 @@
 
 List all local images
 
-`docker images`{{execute interrupt}}
+`docker images`{{execute}}
 
 List running container
 
-`docker ps`{{execute interrupt}}
+`docker ps`{{execute}}
 
 Try to stop running container
 
@@ -14,7 +14,7 @@ Try to stop running container
 
 List container, _Include stopped container_
 
-`docker ps -a`{{execute interrupt}}
+`docker ps -a`{{execute}}
 
 Try to remove stopped container
 
