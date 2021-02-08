@@ -16,7 +16,7 @@ Review code to build
 
 cd into build context
 
-`cd /root/labdocker101`{{execute interrupt}}
+`cd /root/labdocker101/example-expressjs`{{execute interrupt}}
 
 run build image and tag *example2-web*
 
