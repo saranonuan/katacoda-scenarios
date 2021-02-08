@@ -1,18 +1,18 @@
-## Docker build example 2 - nodejs / express framework
+## Docker build example - nodejs / express framework
 ### https://expressjs.com/
 \
 Review dockerfile \
 *Tip: check Dockerfile in https://www.fromlatest.io* 
 
-`example3/Dockerfile`{{open}}
+`example-expressjs/Dockerfile`{{open}}
 
 Review code to build
 
-`example3/www/index.html`{{open}}
+`example-expressjs/www/index.html`{{open}}
 
-`example3/www/index.js`{{open}}
+`example-expressjs/www/index.js`{{open}}
 
-`example3/www/package.json`{{open}}
+`example-expressjs/www/package.json`{{open}}
 
 cd into build context
 
@@ -20,11 +20,11 @@ cd into build context
 
 run build image and tag *example2-web*
 
-`docker build -t example3-web .`{{execute interrupt}}
+`docker build -t example-expressjs .`{{execute interrupt}}
 
-try to run, and expose port 8080
+try to run, and expose port 8081
 
-`docker run --rm -p 8081:81 example3-web`{{execute interrupt}}
+`docker run --rm -p 8081:3000 example-expressjs`{{execute interrupt}}
 
-Open port 8081 to view nginx home page
+Open port 8081 to view
 https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/

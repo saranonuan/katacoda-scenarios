@@ -1,29 +1,11 @@
-## Docker build example 1 - nginx
-### https://nginx.org
-\
+## Docker volume example - 
+### https://hub.docker.com/r/alchen99/express-hello
+### https://github.com/alchen99/express-hello-world
 
-Review dockerfile \
-*Tip: check Dockerfile in https://www.fromlatest.io* 
+`docker run --rm -p 8080:3000 alchen99/express-hello`{{execute interrupt}}
 
-`example2/Dockerfile`{{open}}
+Try to mount index.html to replace in container
+`docker run --rm -p 8080:3000 -v ${PWD}/example-volumes:/opt/hello-world-app/www alchen99/express-hello`{{execute interrupt}}
 
-Review code to build
-
-`example2/index.html`{{open}}
-
-`example2/nginx.conf`{{open}}
-
-cd into build context
-
-`cd /root/labdocker101`{{execute interrupt}}
-
-run build image and tag *example2-web*
-
-`docker build -t example2-web .`{{execute interrupt}}
-
-try to run, and expose port 8080
-
-`docker run --rm -p 8080:81 example2-web`{{execute interrupt}}
-
-Open port 8080 to view nginx home page
+Open port 8080 to view
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
