@@ -34,13 +34,11 @@
     }
   },
   "environment": {
-    "vscodepath": "/root/labdocker101/docker-helloworld",
-    "vscodeeditorpath": "/root/labdocker101/docker-helloworld",
+    "uilayout": "editor-terminal",
     "uieditorpath": "/root/labdocker101/docker-helloworld",
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
-    "hidefinish": true,
-    "uilayout": "vscode-terminal-split"
+    "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu"
