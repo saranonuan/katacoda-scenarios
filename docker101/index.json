@@ -35,9 +35,9 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/labdocker101/docker-helloworld",
+    "uieditorpath": "/root/labdocker101",
     "hideHiddenFiles": true,
-    "exclusionPatterns": ["*test", "./test/*", "./logs"],
+    "exclusionPatterns": ["./.git", "*test", "./test/*", "./logs"],
     "hidefinish": true
   },
   "backend": {
