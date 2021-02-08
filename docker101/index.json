@@ -39,7 +39,7 @@
     "uieditorpath": "/root/labdocker101/docker-helloworld",
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
-    "showdashboard": true,
+    "hidefinish": true,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
