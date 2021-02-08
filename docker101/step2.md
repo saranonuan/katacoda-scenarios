@@ -4,7 +4,7 @@
 
 `example2/nginx.conf`{{open}}
 
-`cd /root/labdocker101/docker101`{{execute interrupt}}
+`cd /root/labdocker101`{{execute interrupt}}
 
 `docker build -t example2-web .`{{execute interrupt}}
 
