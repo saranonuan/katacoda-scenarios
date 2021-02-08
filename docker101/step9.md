@@ -25,5 +25,6 @@ try to run, and expose port 8080
 
 `docker run --rm -p 8082:80 example-nginx-web`{{execute}}
 
-Open port 8082 to view\
+Open port 8082 to view
+
 [https://[[HOST_SUBDOMAIN]]-8082-[[KATACODA_HOST]].environments.katacoda.com/](https://[[HOST_SUBDOMAIN]]-8082-[[KATACODA_HOST]].environments.katacoda.com/)
