@@ -7,3 +7,5 @@
 `cd /root/labdocker101/docker101`{{execute interrupt}}
 
 `docker build -t example2-web .`{{execute interrupt}}
+
+`docker run --rm -p 8080:81 example2-web`{{execute interrupt}}
