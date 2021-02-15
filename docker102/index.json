@@ -1,0 +1,29 @@
+{
+  "noindex": true,
+  "title": "Docker Basic Lab 102",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/labdocker102",
+    "hideHiddenFiles": false,
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
