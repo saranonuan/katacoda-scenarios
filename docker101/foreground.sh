@@ -4,4 +4,4 @@ cd /root/labdocker101
 git clone https://github.com/saranonuan/kmitl-sdte-docker-lab.git .
 clear
 pwd
-ls -l
+ls -la
