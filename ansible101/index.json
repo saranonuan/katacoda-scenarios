@@ -21,7 +21,9 @@
     "uilayout": "editor-terminal",
     "uieditorpath": "/root/labansible101",
     "hideHiddenFiles": false,
-    "hidefinish": true
+    "hidefinish": true,
+    "hidesidebar": true,
+    "hideintro": true
   },
   "backend": {
     "imageid": "ubuntu1804"
