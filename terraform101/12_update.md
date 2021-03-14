@@ -12,3 +12,6 @@ We can then apply the plan as we did in the previous step.
 
 `terraform apply -var 'container_count=2'`{{execute}}
 
+## Run
+`docker ps`{{execute}}
+## Then capture screen and insert in LabSheet-E

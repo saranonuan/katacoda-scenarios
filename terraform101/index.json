@@ -65,7 +65,7 @@
       "assets": {
           "host01": [
               {
-                "file": "index.html", "target": "/home/scrapbook/tutorial/www/", "chmod": "+r"
+                "file": "index.html", "target": "/home/terraform101/www/", "chmod": "+r"
               }
           ]
       },

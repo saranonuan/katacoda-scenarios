@@ -10,7 +10,7 @@ In addition to .tf configuration files, other files in the directory include:
 Recommendations
 * Keep key components in separate TF project directorys
 * Each directory brings a dedicated state file - blast radius stays small
-* Follow standardized file naming, e.g. main.tf, varialbes in variables.tf, outputs in outputs.tf
+* Follow standardized file naming, e.g. main.tf, variables in variables.tf, outputs in outputs.tf
 
 <pre>
 ├── nginx

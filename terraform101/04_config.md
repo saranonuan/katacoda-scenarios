@@ -23,7 +23,7 @@ We can define our container resource. The resource type is docker_container and 
   }
   volumes {
     container_path  = "/usr/share/nginx/html"
-    host_path = "/home/scrapbook/tutorial/www"
+    host_path = "/home/terraform101/www"
     read_only = true
   }
 }

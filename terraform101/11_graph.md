@@ -7,10 +7,12 @@ A directed graph of dependencies can be show using the CLI:
 
 The directed graph of dependencies looks like:
 
-![example graph.png](/bhood4/scenarios/tf101/assets/graph.png)
+![example graph.png](/saranonuan/scenarios/tf101/assets/graph.png)
 
 An image like this visualizing can be made using graph and ![dot](https://en.wikipedia.org/wiki/DOT_(graph_description_language))
 
-`terraform graph | dot -Tpng > /home/scrapbook/tutorial/www/graph.png`{{execute}}
+`terraform graph | dot -Tpng > /home/terraform101/www/graph.png`{{execute}}
 
 The nginx dashboard on the right shows the graph.png image in index.html 
+
+## Click nginx tab to open nginx port (right side of terminal tab), Then capture screen, and insert in LabSheet-D
