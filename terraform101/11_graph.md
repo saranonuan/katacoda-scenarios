@@ -7,7 +7,7 @@ A directed graph of dependencies can be show using the CLI:
 
 The directed graph of dependencies looks like:
 
-![example graph.png](/saranonuan/scenarios/tf101/assets/graph.png)
+![example graph.png](/saranonuan/scenarios/terraform101/assets/graph.png)
 
 An image like this visualizing can be made using graph and ![dot](https://en.wikipedia.org/wiki/DOT_(graph_description_language))
 
