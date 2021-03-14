@@ -30,3 +30,5 @@ Recommendations
 </pre>
 
 We have created the directory 'nginx' for the example terraform project and changed into that directory.
+
+`cd /root/terraform101`{{execute}}
