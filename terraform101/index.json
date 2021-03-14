@@ -23,12 +23,12 @@
           "text": "04_config.md"
         },
         {
-          "title": "Terraform Init",
-          "text": "05_init.md"
+          "title": "Variables",
+          "text": "05_variables.md"
         },
         {
-          "title": "Variables",
-          "text": "06_variables.md"
+          "title": "Terraform Init",
+          "text": "06_init.md"
         },
         {
           "title": "Validate and Plan",
