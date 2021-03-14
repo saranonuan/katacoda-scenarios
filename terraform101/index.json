@@ -79,7 +79,7 @@
       }
     },
     "files": [
-      "/root/terraform101/main.tf", "/root/terraform101/variables.tf", "/root/terraform101/dev.tfvars"
+      "main.tf", "variables.tf", "dev.tfvars"
     ],
     "environment": {
       "uilayout": "editor-terminal",
