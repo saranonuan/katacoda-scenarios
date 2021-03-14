@@ -15,9 +15,9 @@ We can now start defining the resources of our infrastructure. The first resourc
 We can define our container resource. The resource type is docker_container and name as nginx-server. Within the block we set the resource parameters. We can reference other resources, such as a the image.
 
 <pre class="file" data-filename="main.tf" data-target="append">resource "docker_container" "nginx-server" {
-  count = "${var.container_count}"
+  count = var.container_count
   name = "nginx-server-${count.index+1}"
-  image = "${docker_image.nginx.latest}"
+  image = docker_image.nginx.latest
   ports {
     internal = 80
   }
