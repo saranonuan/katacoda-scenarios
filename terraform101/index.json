@@ -11,8 +11,7 @@
         },
         {
           "title": "Terraform Projects",
-          "text": "02_project.md",
-          "code": "02_setup.sh"
+          "text": "02_project.md"
         },
         {
           "title": "Terraform Providers",
@@ -83,10 +82,10 @@
     ],
     "environment": {
       "uilayout": "editor-terminal",
+      "uieditorpath": "/root/terraform101",
       "showdashboard": true,
       "dashboards": [
-        {"name": "nginx32768", "port": 32768},
-        {"name": "nginx", "href": "https://[[HOST_SUBDOMAIN]]-32768-[[KATACODA_HOST]].environments.katacoda.com"}
+        {"name": "nginx", "port": 32768}
       ]
     },
     "backend": {
