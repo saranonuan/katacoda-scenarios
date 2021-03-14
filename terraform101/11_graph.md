@@ -15,4 +15,4 @@ An image like this visualizing can be made using graph and ![dot](https://en.wik
 
 The nginx dashboard on the right shows the graph.png image in index.html 
 
-## Click nginx tab to open nginx port (right side of terminal tab), Then capture screen, and insert in LabSheet-D
+<span style="color:red">Click nginx tab to open nginx port (right side of terminal tab), Then capture screen, and insert in LabSheet-D</span>
