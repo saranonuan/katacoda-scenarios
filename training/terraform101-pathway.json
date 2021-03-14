@@ -1,0 +1,13 @@
+{
+    "title": "Terraform 101 Lab",
+    "description": "",
+    "courses": [
+      {
+        "pathway_id": "saranonuan",
+        "id": "terraform101",
+        "course_id": "terraform101",
+        "title": "Terraform 101",
+        "description": "Learn basic of terraform"
+      }
+    ]
+  }
