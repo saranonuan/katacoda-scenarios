@@ -1,0 +1,97 @@
+{
+    "title": "Terraform 101",
+    "description": "Terraform basics (with docker nginx)",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "details": {
+      "steps": [
+        {
+          "title": "Terraform install",
+          "text": "01_install.md"
+        },
+        {
+          "title": "Terraform Projects",
+          "text": "02_project.md",
+          "code": "02_setup.sh"
+        },
+        {
+          "title": "Terraform Providers",
+          "text": "03_provider.md"
+        },
+        {
+          "title": "Terraform Config",
+          "text": "04_config.md"
+        },
+        {
+          "title": "Terraform Init",
+          "text": "05_init.md"
+        },
+        {
+          "title": "Variables",
+          "text": "06_variables.md"
+        },
+        {
+          "title": "Validate and Plan",
+          "text": "07_plan.md"
+        },
+        {
+          "title": "Terraform Apply",
+          "text": "08_apply.md"
+        },
+        {
+          "title": "Inspect Infrastructure",
+          "text": "09_inspect.md"
+        },
+        {
+          "title": "State file",
+          "text": "10_statefile.md"
+        },
+        {
+          "title": "Graph",
+          "text": "11_graph.md"
+        },
+        {
+          "title": "Update Infrastructure",
+          "text": "12_update.md"
+        },
+        {
+          "title": "Destroy Infrastructure",
+          "text": "13_destroy.md"
+        },
+        {
+          "title": "Quiz",
+          "text": "14_quiz.md"
+        }
+      ],
+      "assets": {
+          "host01": [
+              {
+                "file": "index.html", "target": "/home/scrapbook/tutorial/www/", "chmod": "+r"
+              }
+          ]
+      },
+      "intro": {
+        "text": "intro.md",
+        "courseData": "background.sh"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [
+      "nginx/main.tf", "nginx/variables.tf", "nginx/dev.tfvars"
+    ],
+    "environment": {
+      "uilayout": "editor-terminal",
+      "showdashboard": true,
+      "dashboards": [
+        {"name": "nginx32768", "port": 32768},
+        {"name": "nginx", "href": "https://[[HOST_SUBDOMAIN]]-32768-[[KATACODA_HOST]].environments.katacoda.com"}
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu",
+      "port": 32768
+    }
+  }
+  
