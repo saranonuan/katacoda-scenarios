@@ -90,7 +90,7 @@
       ]
     },
     "backend": {
-      "imageid": "ubuntu",
+      "imageid": "ubuntu:1804",
       "port": 32768
     }
   }

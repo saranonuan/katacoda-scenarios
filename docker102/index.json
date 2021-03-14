@@ -24,6 +24,6 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu:1804"
   }
 }
