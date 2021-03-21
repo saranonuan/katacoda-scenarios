@@ -46,7 +46,7 @@
     ],
     "environment": {
       "uilayout": "editor-terminal",
-      "uieditorpath": "/root/terraform101",
+      "uieditorpath": "/root/lab9",
       "showdashboard": true,
       "dashboards": [
         {"name": "nginx", "port": 32768}
