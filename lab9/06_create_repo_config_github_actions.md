@@ -74,10 +74,12 @@ Github Action จะถูก Trigger เพื่อทำการ Build Docke
 โดยในขั้นตอนนี้ Github Actions ต้องสำเร็จเป็นสีเขียว
 และใน AWS Console ไปที่เมนูของ ECR เพื่อดูว่ามีการ Build docker image และจัดเก็บเข้ามาไว้ใน ECR เรียบร้อยแล้วหรือไม่
 
-![example](/saranonuan/scenarios/lab9/assets/github_action_result.png)
+<span style="color:red">ตัวอย่างผลลัพธ์</span>
 
-![example](/saranonuan/scenarios/lab9/assets/go_to_ecr.png)
+![example](/saranonuan/scenarios/lab9/assets/github_action_result.png)
 
 ![example](/saranonuan/scenarios/lab9/assets/ecr_result.png)
 
+<span style="color:red">ตรงนี้ให้ Capture ดังตัวอย่างด้านบนลงใน LabSheet</span>
 
+<span style="color:red">โดยต้อง Capture ให้เห็น Username ขวาบนด้วย</span>
