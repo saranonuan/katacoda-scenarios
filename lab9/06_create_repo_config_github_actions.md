@@ -1,19 +1,27 @@
 # สร้าง Code Repository และ Setup GitHub Actions สำหรับ Build Docker Image
 
+
+สร้างไฟล์ .gitignore
+เพื่อไม่ให้โฟลเดอร์ .terraform ถูกนำขึ้นไปเก็บด้วย เพราะมีขนาดใหญ่เกินไป
+
+<pre class="file" data-filename=".gitignore" data-target="append">
+.terraform
+</pre>
+
 สร้างไฟล์ .github/workflows/build.yml
 
-<pre class="file" data-filename="src/.github/workflows/build.yml" data-target="append">
+<pre class="file" data-filename=".github/workflows/build.yml" data-target="append">
 name: Build docker image and push to ECR
 
 on:
   push:
     branches:
       - "main"
+      - "master"
 
 jobs:
   build-docker:
     name: Build docker image from source
-    needs: check-code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
@@ -30,8 +38,8 @@ jobs:
       - name: Build & Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./Dockerfile
+          context: src/
+          file: src/Dockerfile
           tags: ECR_URL
           push: true
 
@@ -45,10 +53,23 @@ jobs:
 
 ![example](/saranonuan/scenarios/lab9/assets/create_repo.png)
 
-ทำการ Commit และ Push ขึ้น Github 
+เมื่อสร้าง Repo เสร็จแล้ว
+
+ไปที่เมนู Settings > Secrets โดยให้เพิ่ม Secrets สองค่าดังนี้
+
+1. **AWS_ACCESS_KEY_ID** โดย value เป็น AWS Access Key
+2. **AWS_SECRET_ACCESS_KEY**  โดย value เป็น AWS Secret Key
+
+Secret นี้ใช้เพื่อไว้ในการแทนค่าในไฟล์ .github/workflows/build.yml ที่สร้างด้านบน สำหรับให้ AWS CLI ใน Actions ทำงานได้
+
+![example](/saranonuan/scenarios/lab9/assets/config_git_secret_example.png)
+
+เมื่อตั้งค่าเรียบร้อยแล้วให้ทำการ Commit และ Push ขึ้น Github
+
+![example](/saranonuan/scenarios/lab9/assets/git_push_example.png)
 
 เมื่อ Push Code ขึ้นไปแล้ว
-Github Action จะถูก Trigger ให้ทำการ Build Docker Image
+Github Action จะถูก Trigger เพื่อทำการ Build Docker Image แล้วเก็บ Image บน ECR
 
 โดยในขั้นตอนนี้ Github Actions ต้องสำเร็จเป็นสีเขียว
 และใน AWS Console ไปที่เมนูของ ECR เพื่อดูว่ามีการ Build docker image และจัดเก็บเข้ามาไว้ใน ECR เรียบร้อยแล้วหรือไม่

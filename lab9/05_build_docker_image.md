@@ -56,4 +56,9 @@ CMD ["node", "index.js"]
 </pre>
 
 ทดลองสร้าง Docker image
+`cd /root/lab9/src`{{execute}}
 `docker build -t lab9-webserver-express .`{{execute}}
+
+เมื่อสร้างได้สำเร็จเรียบร้อยแล้ว
+กลับไป folder หลักก่อนที่จะดำเนินการต่อ
+`cd /root/lab9`{{execute}}

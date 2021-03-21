@@ -42,7 +42,9 @@
     },
     "files": [
       "infra.tf",
-      "output.tf"
+      "output.tf",
+      "src/package.json",
+      "src/index.json"
     ],
     "environment": {
       "uilayout": "editor-terminal",
