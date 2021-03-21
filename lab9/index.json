@@ -1,8 +1,8 @@
 {
-    "title": "Terraform 101",
-    "description": "Terraform basics (with docker nginx)",
+    "title": "SDTE2020-Lab9",
+    "description": "AWS, Terraform, GitHub Actions, Docker, Git",
     "difficulty": "beginner",
-    "time": "60 minutes",
+    "time": "120 minutes",
     "details": {
       "steps": [
         {
