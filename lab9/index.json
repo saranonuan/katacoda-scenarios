@@ -6,69 +6,31 @@
     "details": {
       "steps": [
         {
-          "title": "Terraform install",
-          "text": "01_install.md"
+          "title": "Install Terraform",
+          "text": "01_install_terraform.md"
         },
         {
-          "title": "Terraform Projects",
-          "text": "02_project.md",
-          "code": "02_project.sh"
+          "title": "Install AWS CLI",
+          "text": "02_install_aws_cli.md"
         },
         {
-          "title": "Terraform Providers",
-          "text": "03_provider.md"
+          "title": "Config AWS CLI",
+          "text": "03_config_aws.md"
         },
         {
-          "title": "Terraform Config",
-          "text": "04_config.md"
+          "title": "Create ECR by Terraform",
+          "text": "04_terraform_create_ecr.md"
         },
         {
-          "title": "Variables",
-          "text": "05_variables.md"
+          "title": "Build Docker Image for WebApp",
+          "text": "05_build_docker_image.md"
         },
         {
-          "title": "Terraform Init",
-          "text": "06_init.md"
-        },
-        {
-          "title": "Validate and Plan",
-          "text": "07_plan.md"
-        },
-        {
-          "title": "Terraform Apply",
-          "text": "08_apply.md"
-        },
-        {
-          "title": "Inspect Infrastructure",
-          "text": "09_inspect.md"
-        },
-        {
-          "title": "State file",
-          "text": "10_statefile.md"
-        },
-        {
-          "title": "Graph",
-          "text": "11_graph.md"
-        },
-        {
-          "title": "Update Infrastructure",
-          "text": "12_update.md"
-        },
-        {
-          "title": "Destroy Infrastructure",
-          "text": "13_destroy.md"
-        },
-        {
-          "title": "Quiz",
-          "text": "14_quiz.md"
+          "title": "Create Repo, Push to Github and Build by Github Actions",
+          "text": "06_create_repo_config_github_actions.md"
         }
       ],
       "assets": {
-          "host01": [
-              {
-                "file": "index.html", "target": "/home/terraform101/www/", "chmod": "+r"
-              }
-          ]
       },
       "intro": {
         "text": "intro.md",
@@ -79,7 +41,8 @@
       }
     },
     "files": [
-      "main.tf", "variables.tf", "dev.tfvars"
+      "infra.tf",
+      "output.tf"
     ],
     "environment": {
       "uilayout": "editor-terminal",

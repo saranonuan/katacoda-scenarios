@@ -1,4 +1,2 @@
-apt install graphviz -y
-clear
-mkdir -p /root/terraform101
-cd /root/terraform101
+mkdir -p /root/lab9
+cd /root/lab9

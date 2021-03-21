@@ -2,7 +2,7 @@
 
 สร้างไฟล์ .github/workflows/build.yml
 
-<pre>
+<pre class="file" data-filename="src/.github/workflows/build.yml" data-target="append">
 name: Build docker image and push to ECR
 
 on:
