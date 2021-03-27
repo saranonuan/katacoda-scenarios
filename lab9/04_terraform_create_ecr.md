@@ -25,7 +25,7 @@ resource "aws_ecr_repository" "lab9_image_repo" {
 
 </pre>
 
-สั่ง `terraform init` เพื่อสร้าง terraform workspace
+สั่ง `terraform init`{{execute}} เพื่อสร้าง terraform workspace
 สั่ง `terraform apply`{{execute}} เพื่อให้ terraform ช่วยสร้างตามที่ระบุ
 
 เมื่อ Terraform apply เสร็จแล้ว

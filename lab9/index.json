@@ -44,7 +44,10 @@
       "infra.tf",
       "output.tf",
       "src/package.json",
-      "src/index.json"
+      "src/index.js",
+      "src/Dockerfile",
+      ".gitignore",
+      ".github/workflows/build.yml"
     ],
     "environment": {
       "uilayout": "editor-terminal",
