@@ -26,8 +26,36 @@
           "text": "05_build_docker_image.md"
         },
         {
+          "title": "Create Github Actions",
+          "text": "06_create_gitub_action_file.md"
+        },
+        {
           "title": "Create Repo, Push to Github and Build by Github Actions",
-          "text": "06_create_repo_config_github_actions.md"
+          "text": "07_create_repo_and_push.md"
+        },
+        {
+          "title": "Create ECS",
+          "text": "08_create_ecs_infra.md"
+        },
+        {
+          "title": "Check ECS Result",
+          "text": "09_check_ecs_result.md"
+        },
+        {
+          "title": "Check Load Balancer",
+          "text": "10_check_load_balancer.md"
+        },
+        {
+          "title": "Update Github Actions to support CD",
+          "text": "11_update_github_actions.md"
+        },
+        {
+          "title": "Check CD Run Result",
+          "text": "12_check_github_actions_result_2.md"
+        },
+        {
+          "title": "Cleanup",
+          "text": "13_cleanup.md"
         }
       ],
       "assets": {
