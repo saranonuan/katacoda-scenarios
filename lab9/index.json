@@ -82,6 +82,7 @@
       "uilayout": "editor-terminal",
       "uieditorpath": "/root/lab9",
       "showdashboard": true,
+      "hideHiddenFiles": false,
       "dashboards": [
         {"name": "nginx", "port": 32768}
       ]
