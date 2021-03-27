@@ -2,7 +2,7 @@
 
 สร้างไฟล์​ src/package.json
 
-<pre class="file" data-filename="src/package.json" data-target="append">{
+<pre class="file" data-filename="src/package.json" data-target="replace">{
   "name": "node-docker-ecs",
   "version": "1.0.0",
   "description": "",

@@ -2,7 +2,7 @@
 
 รันคำสั่ง เพื่อสร้าง AWS S3 ไว้สำหรับเก็บ Terraform State
 <span style="color: red;">เปลี่ยนรหัสนักศึกษา เป็นเลขรหัสนักศึกษาด้วย</span>
-`aws s3 create-bucket --bucket lab9-รหัสนักศึกษา --region ap-southeast-1`
+`aws s3api create-bucket --bucket lab9-รหัสนักศึกษา --region us-east-1`
 
 สร้างไฟล์ terraform.tf เพื่อตั้งค่า backend สำหรับเก็บ Terraform State ไปไว้ที่ aws s3
 <span style="color: red;">เปลี่ยนรหัสนักศึกษา เป็นเลขรหัสนักศึกษาด้วย</span>
@@ -19,15 +19,7 @@ terraform {
 
 <hr />
 
-ในไฟล์ infra.tf เพื่อระบุ Provider ที่จะใช้งาน Terraform ด้วย ว่าเป็น AWS
-
-<pre class="file" data-filename="infra.tf" data-target="replace"># Target Provider is AWS at region ap-southeast-1 (Singapore)
-provider "aws" {
-  region  = "ap-southeast-1"
-}
-</pre>
-
-เพิ่มในไฟล์ infra.tf เพื่อตั้งค่า AWS ว่าจะสร้างที่ Singapore
+ในไฟล์ infra.tf เพื่อระบุ Provider ที่จะใช้งาน Terraform ด้วย ว่าเป็น AWSที่ Singapore
 
 <pre class="file" data-filename="infra.tf" data-target="replace"># Target Provider is AWS at region ap-southeast-1 (Singapore)
 provider "aws" {
@@ -48,7 +40,7 @@ resource "aws_ecr_repository" "lab9_image_repo" {
 สั่ง `terraform apply`{{execute}} เพื่อให้ terraform ช่วยสร้างรายการต่างๆตามที่ระบุ
 
 รอ Terraform ดำเนินการสร้าง Infrastructure ต่างๆให้
-<span style="color: yellow;">หากพบปัญหาที่เกี่ยวข้องกับ Internet สามารถรัน `terraform apply` เพื่อลองใหม่ได้</span>
+<span style="color: blue;">หากพบปัญหาที่เกี่ยวข้องกับ Internet สามารถรัน `terraform apply` เพื่อลองใหม่ได้</span>
 
 รอ Terraform apply
 เสร็จแล้วจึงไปขั้นตอนต่อไป

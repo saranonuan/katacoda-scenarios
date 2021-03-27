@@ -71,8 +71,8 @@ jobs:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: lab9-service
           cluster: lab9_cluster
-          wait-for-service-stability: true
+          wait-for-service-stability: false
 
 </pre>
 
-<span style="color: yellow">ทำการ Commit และ Push</span>
+<span style="color: blue">ทำการ Commit และ Push</span>

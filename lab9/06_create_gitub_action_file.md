@@ -6,9 +6,7 @@
 สร้างไฟล์ .gitignore
 เพื่อไม่ให้โฟลเดอร์ .terraform ถูกนำขึ้นไปเก็บด้วย เพราะมีขนาดใหญ่เกินไป
 
-<pre class="file" data-filename=".gitignore" data-target="append">
-.terraform
-</pre>
+<pre class="file" data-filename=".gitignore" data-target="replace">.terraform</pre>
 
 สร้างไฟล์ .github/workflows/build.yml
 เพื่อสร้าง GitHub Build Pipeline สำหรับทำ CI Docker Image
