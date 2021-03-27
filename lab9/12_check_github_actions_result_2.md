@@ -12,6 +12,6 @@
 
 Result ที่ได้ จะต้องเปลี่ยนเป็น `Lab 9 Done !!`
 
-<span style="color:red">Capture หน้าเว็บไซต์ให้เห็น URL ที่ทำด้วย ลงใน LabSheet</span>
+<span style="color:red">Capture หน้าเว็บไซต์ให้เห็น URL ที่ทำด้วย ลงใน LabSheet (D)</span>
 
-<span style="color:red">ทำการ Commit และ Push</span>
+<span style="color:red">กรอก GitHub Repo ลงใน LabSheet (E)</span>

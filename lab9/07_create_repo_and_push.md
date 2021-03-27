@@ -30,4 +30,4 @@ Github Action จะถูก Trigger เพื่อทำการ Build Docke
 
 ![example](/saranonuan/scenarios/lab9/assets/ecr_result.png)
 
-<span style="color:red">Capture ให้เห็นการทำงาน GitHub Actions ที่สำเร็จ ลงใน LabSheet</span>
+<span style="color:red">Capture ให้เห็นการทำงาน GitHub Actions ที่สำเร็จ ลงใน LabSheet (A)</span>
