@@ -41,6 +41,7 @@
       }
     },
     "files": [
+      "terraform.tf",
       "infra.tf",
       "output.tf",
       "src/package.json",

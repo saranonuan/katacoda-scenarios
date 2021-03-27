@@ -1,5 +1,6 @@
 mkdir -p /root/lab9
 cd /root/lab9
+touch terraform.tf
 touch infra.tf
 touch output.tf
 mkdir -p /root/lab9/src
