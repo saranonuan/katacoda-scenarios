@@ -14,4 +14,4 @@
 
 ![example](/saranonuan/scenarios/lab9/assets/ecs_result_example.png)
 
-<span style="color:red">Capture หน้า ลงใน LabSheet</span>
+<span style="color:red">Capture หน้า ลงใน LabSheet (B)</span>

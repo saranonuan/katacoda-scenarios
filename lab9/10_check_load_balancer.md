@@ -18,4 +18,4 @@
 
 ![example](/saranonuan/scenarios/lab9/assets/load_balancer_output_example.png)
 
-<span style="color:red">Capture หน้าเว็บไซต์ให้เห็น URL ที่ทำด้วย ลงใน LabSheet</span>
+<span style="color:red">Capture หน้าเว็บไซต์ให้เห็น URL ที่ทำด้วย ลงใน LabSheet (C)</span>
