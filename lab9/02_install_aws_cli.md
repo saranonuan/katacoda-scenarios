@@ -5,7 +5,7 @@ Download linux platform zip, unzip, move to /usr/local/bin
 
 ## AWS Version
 `aws --version`{{execute}}
-<pre>Terraform v0.12.5</pre>
+<pre>aws-cli/2.1.32</pre>
 
 ## AWS usage
 `aws`{{execute}}

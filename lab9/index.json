@@ -14,8 +14,12 @@
           "text": "02_install_aws_cli.md"
         },
         {
+          "title": "Register AWS & Create CLI Key",
+          "text": "03_01_register_aws.md"
+        },
+        {
           "title": "Config AWS CLI",
-          "text": "03_config_aws.md"
+          "text": "03_02_config_aws_cli.md"
         },
         {
           "title": "Create ECR by Terraform",
