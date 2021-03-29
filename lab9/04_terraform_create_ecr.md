@@ -11,7 +11,7 @@ terraform {
  backend "s3" {
     encrypt = true
     bucket = "lab9-รหัสนักศึกษา"
-    region = "ap-southeast-1"
+    region = "us-east-1"
     key = "infra-state"
  }
 }
