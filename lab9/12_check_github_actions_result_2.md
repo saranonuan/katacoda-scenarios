@@ -6,7 +6,7 @@
 
 รอ Deploy Task Version ใหม่สักครู่
 
-<span style="color:red">Capture หน้าเมนู Tasks ลงใน LabSheet</span>
+Capture หน้าเมนู Tasks ลงใน LabSheet
 
 เสร็จแล้วให้ลองเข้าเว็บแอพลิเคชั่นผ่าน Load Balancer อีกครั้ง
 
