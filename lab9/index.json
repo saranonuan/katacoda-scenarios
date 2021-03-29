@@ -82,14 +82,10 @@
       "uilayout": "editor-terminal",
       "uieditorpath": "/root/lab9",
       "showdashboard": true,
-      "hideHiddenFiles": false,
-      "dashboards": [
-        {"name": "nginx", "port": 32768}
-      ]
+      "hideHiddenFiles": false
     },
     "backend": {
-      "imageid": "ubuntu:2004",
-      "port": 32768
+      "imageid": "ubuntu:2004"
     }
   }
   
